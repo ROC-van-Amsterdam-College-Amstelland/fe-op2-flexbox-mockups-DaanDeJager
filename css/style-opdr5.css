@@ -1,3 +1,77 @@
 html, body{
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.navTop{ padding-left: 400px;
+    display: flex;
+    width: 75%;
+    height: 100px;
+    background-color: forestgreen;
+}
+main{
+    display: flex;
+}
+.mMid{
+    flex-direction: row;
+    display: flex;
+    width: 75%;
+    height: 600px;
+    background-color: orange;
+    display: flex;
+}
+footer {
+    display: flex;
+  }
+  .footer {
+    width: 100%;
+    height: 50px;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;}
+.mBox{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.navBox{
+
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+    
+}
+.mP{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.menu{
+    flex-direction: row;
+    display: flex;
+    width: 255;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+    height: 100%;
+    background-color: blue;
+    list-style: none;
+}
+li{
+    margin: 75px;
+}
+button{
+
+    width: 60px;
+    height: 30px;
 }
