@@ -1,3 +1,29 @@
 html, body{
+    margin: 0px;
+    padding: 0px;
     height: 100%;
+    background-color: orange;
 }
+.container{
+    height: 1080px;
+    width: 400px;
+    background-color: forestgreen;
+}
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 25%;
+}
+.mContainer {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+  }
+
+
